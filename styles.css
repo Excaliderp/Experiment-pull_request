@@ -1,14 +1,4 @@
 
-footer {
-    background-color: black;
-    color: white;
-    display: flex;
-    font-size: 16px;
-    gap: 48px;
-    justify-content: center;
-    padding: 48px;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -44,4 +34,21 @@ header {
 
 .navbar > p:hover {
     background-color: rgb(96, 96, 236);
+}
+
+
+.content, .list {
+    background-color: yellow;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 16px;
+    gap: 48px;
+    justify-content: center;
+    padding: 48px;
 }
