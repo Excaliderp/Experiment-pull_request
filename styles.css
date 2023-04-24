@@ -1,4 +1,14 @@
 
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 16px;
+    gap: 48px;
+    justify-content: center;
+    padding: 48px;
+}
+
 * {
     box-sizing: border-box;
 }
